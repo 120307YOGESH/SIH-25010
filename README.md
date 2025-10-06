@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 6-10-2025
+## Register Number: 212224230311
+## Name: S.YOGESH
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -41,28 +41,38 @@ Government of Punjab
 Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-<h3>Remove These Lines</h3>
-<ul><li>Detailed explanation of the proposed solution</li>
-<li>How it addresses the problem</li>
-<li>Innovation and uniqueness of the solution</li></ul>
+
+The proposed solution is a web-based BMI (Body Mass Index) Calculator built using the Django framework. It allows users to input their height and weight to calculate their BMI instantly. The application provides an accurate BMI result and category (Underweight, Normal, Overweight, or Obese), helping users monitor their health easily.
 
 ## Technical Approach
-<h3>Remove These Lines</h3>
-<ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
-</li>
-<li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
+
+The project is developed using Python (Django framework) for backend processing and HTML/CSS for frontend design.
+
+Frontend: Collects height and weight through a simple web form.
+
+Backend: Django processes user input, calculates BMI using the formula (BMI = weight / (height/100)²), and returns the result.
+
+Database (optional): Can store user BMI history for analysis.
 
 ## Feasibility and Viability
-<h3>Remove These Lines</h3>
-<ul><li>Analysis of the feasibility of the idea</li>
-<li>Potential challenges and risks</li>
-<li>Strategies for overcoming these challenges</li></ul>
+
+The solution is highly feasible as it uses lightweight technologies and minimal resources. Django simplifies development and deployment, making the system reliable and scalable. Challenges: Ensuring accurate input validation and responsive design. Mitigation: Implement input checks and CSS-based responsive layouts.
 
 ## Impact and Benefits
-<h3>Remove These Lines</h3>
-<ul><li>Potential impact on the target audience</li>
-<li>Benefits of the solution (social, economic, environmental, etc.)</li></ul>
+
+This project promotes health awareness by allowing users to easily monitor their BMI. Benefits include:
+
+Encourages healthy living habits.
+
+Can be expanded into a full health tracking system.
+
+Easy to use and accessible on any device with a browser.
+
 
 ## Research and References
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+
+World Health Organization (WHO) BMI classification guidelines.
+
+Django official documentation: https://docs.djangoproject.com
+
+Healthline: BMI calculation and health interpretation articles.
